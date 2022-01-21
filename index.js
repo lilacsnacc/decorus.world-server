@@ -8,7 +8,7 @@
 
 import geckos from '@geckos.io/server'
 
-const io = geckos({cors: {allowAuthorization: true}})
+const io = geckos()
 
 // const engine = new BABYLON.NullEngine({
 //   renderWidth: 256,
